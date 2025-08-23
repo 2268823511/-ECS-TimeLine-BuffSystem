@@ -1,0 +1,66 @@
+// 自动生成的Buff类，请勿手动修改
+// 如需修改配置，请使用Buff编辑器
+
+using System.Collections.Generic;
+using XJXMoudle;
+
+namespace XJXMoudle
+{
+    public class {CLASS_NAME} : BuffBase
+    {
+        // BuffData在构造时初始化
+        public {CLASS_NAME}(Agent caster, Agent target)
+        {
+			this.caster = caster;
+			this.target = target;
+            buffData = new BuffData
+            {
+                BuffTypeId = {BUFF_TYPE_ID},
+                MaxLv = {MAX_LV},
+                BuffLvType = EBuffLvType.{BUFF_LV_TYPE},
+                BuffTickType = EBuffTickType.{BUFF_TICK_TYPE},
+                BaseDuration = {BASE_DURATION}f,
+                BaseCDTime = {BASE_CD_TIME}f,
+                BaseInterval = {BASE_INTERVAL}f,
+                ConflictType = EBuffConflictType.{CONFLICT_TYPE},
+                ConflictBuffIds = new List<int> { {CONFLICT_BUFF_IDS} },
+                BuffPriority = {BUFF_PRIORITY},
+                ReduceLv = {REDUCE_LV},
+                BuffName = "{BUFF_NAME}",
+                BuffDesc = "{BUFF_DESC}",
+                BuffIconPath = "{BUFF_ICON_PATH}",
+                BuffEffectPath = "{BUFF_EFFECT_PATH}"
+            };
+        }
+
+        public override void ApplyBuff()
+        {
+            base.ApplyBuff();
+            // TODO: 实现{CLASS_NAME}的应用逻辑
+        }
+
+        public override void EnterBuff(float time)
+        {
+            base.EnterBuff(time);
+            // TODO: 实现{CLASS_NAME}的进入逻辑
+        }
+
+        public override void UpdateBuff(float time)
+        {
+            base.UpdateBuff(time);
+            // TODO: 实现{CLASS_NAME}的更新逻辑
+        }
+
+        public override void ExitBuff(float time)
+        {
+            base.ExitBuff(time);
+            // TODO: 实现{CLASS_NAME}的退出逻辑
+        }
+
+        public override void RemoveBuff()
+        {
+            base.RemoveBuff();
+            // TODO: 实现{CLASS_NAME}的移除逻辑
+        }
+    }
+}

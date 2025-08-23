@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ebc040d2dbb8f4d81a6dd14a160daf, type: 3}
+  m_Name: Buff1001
+  m_EditorClassIdentifier: 
+  buffId: 1001
+  buffClassName: Buff1001
+  buffDataConfig:
+    buffTypeId: 1001
+    maxLv: 5
+    buffLvType: 1
+    buffTickType: 0
+    baseDuration: 10
+    baseCDTime: 30
+    baseInterval: 1
+    conflictType: 0
+    conflictBuffIds: 
+    buffPriority: 0
+    reduceLv: 0
+    buffName: "\u70BC\u91D1\u306E\u6BD2\u6DB2"
+    buffDesc: "\u8BA9\u73A9\u5BB6\u6301\u7EED\u4E2D\u6BD2,\u6263\u9664Hp"
+    buffIconPath: 
+    buffEffectPath: 
