@@ -28,6 +28,7 @@ namespace XJXMgr
                 Debug.LogError($"[BuffMgr] 目标代理为空，无法添加buff {buffId}");
                 return;
             }
+            //TEST
 
             int agentId = target.GetAgentId();
             BuffBase newBuff = CreateBuff(buffId, caster, target);
